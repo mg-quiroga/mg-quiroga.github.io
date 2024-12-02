@@ -1,0 +1,78 @@
+.main-button {
+
+    padding: 16 64;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #000000;
+    border-radius: 4px;
+    background-color: #D8A6ED;
+    transition: .3s;
+
+}
+
+.main-button:hover {
+
+    padding: 16 64;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #000000;
+    border-radius: 4px;
+    background-image: radial-gradient(#D8A6ED 60%, #5355be);
+    transform: scale(1.05);
+}
+
+.secondary-button-navbar {
+
+    padding: 16 64;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #FFFFFF;
+    border: 2px solid;
+    border-color: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 16px;
+    transition: .3s;
+}
+
+.secondary-button-navbar:hover {
+
+    padding: 16 64;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #D8A6ED;
+    border: 2px solid;
+    border-color: #D8A6ED;
+    border-radius: 4px;
+    margin-right: 16px;
+    transform: scale(1.05);
+}
+
+.secondary-button {
+
+    padding: 16 64;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #FFFFFF;
+    border: 2px solid;
+    border-color: #FFFFFF;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.secondary-button:hover {
+
+    padding: 16 64;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #D8A6ED;
+    border: 2px solid;
+    border-color: #D8A6ED;
+    border-radius: 4px;
+    transform: scale(1.05);
+}

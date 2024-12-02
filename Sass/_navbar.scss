@@ -1,0 +1,27 @@
+.flex-nav {
+
+    padding: 40 80;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    z-index: 1000;
+}
+
+.main-logo {
+    width: 24%;
+    overflow: hidden;
+}
+
+.links-flex {
+
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}

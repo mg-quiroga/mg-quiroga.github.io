@@ -1,0 +1,42 @@
+/*Above-the-fold INDEX --------------------------------------------------------------------------------------------------*/
+
+.main-flex {
+
+    background-image: url(imgs/background-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220 80;
+}
+
+.flex-above {
+
+
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+/*Above-the-fold PORTFOLIO --------------------------------------------------------------------------------------------------*/
+
+
+.main-flex-portfolio {
+    
+    background-image: url(imgs/background-portfolio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180 80;
+}
+
+
+/*Above-the-fold CONTACT --------------------------------------------------------------------------------------------------*/
+
+.main-flex-contact {
+    
+    background-image: url(imgs/background-contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180 80;
+}

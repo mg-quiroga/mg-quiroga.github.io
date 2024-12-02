@@ -1,0 +1,602 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+}
+
+/*Above-the-fold INDEX --------------------------------------------------------------------------------------------------*/
+.main-flex {
+  background-image: url(imgs/background-main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220 80;
+}
+
+.flex-above {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*Above-the-fold PORTFOLIO --------------------------------------------------------------------------------------------------*/
+.main-flex-portfolio {
+  background-image: url(imgs/background-portfolio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180 80;
+}
+
+/*Above-the-fold CONTACT --------------------------------------------------------------------------------------------------*/
+.main-flex-contact {
+  background-image: url(imgs/background-contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180 80;
+}
+
+.main-button {
+  padding: 16 64;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #000000;
+  border-radius: 4px;
+  background-color: #D8A6ED;
+  transition: 0.3s;
+}
+
+.main-button:hover {
+  padding: 16 64;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #000000;
+  border-radius: 4px;
+  background-image: radial-gradient(#D8A6ED 60%, #5355be);
+  transform: scale(1.05);
+}
+
+.secondary-button-navbar {
+  padding: 16 64;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #FFFFFF;
+  border: 2px solid;
+  border-color: #FFFFFF;
+  border-radius: 4px;
+  margin-right: 16px;
+  transition: 0.3s;
+}
+
+.secondary-button-navbar:hover {
+  padding: 16 64;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #D8A6ED;
+  border: 2px solid;
+  border-color: #D8A6ED;
+  border-radius: 4px;
+  margin-right: 16px;
+  transform: scale(1.05);
+}
+
+.secondary-button {
+  padding: 16 64;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #FFFFFF;
+  border: 2px solid;
+  border-color: #FFFFFF;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.secondary-button:hover {
+  padding: 16 64;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #D8A6ED;
+  border: 2px solid;
+  border-color: #D8A6ED;
+  border-radius: 4px;
+  transform: scale(1.05);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(fonts/Montserrat/);
+}
+h1 {
+  color: #FFFFFF;
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  padding-bottom: 16px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 46px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 34px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 29px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  padding-bottom: 16px;
+}
+
+.p-above {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: "Montserrat";
+  line-height: 32px;
+  margin-bottom: 80px;
+}
+
+span {
+  color: #D8A6ED;
+}
+
+.flex-nav {
+  padding: 40 80;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #000;
+  z-index: 1000;
+}
+
+.main-logo {
+  width: 24%;
+  overflow: hidden;
+}
+
+.links-flex {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-section {
+  padding: 60 80;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.width-image {
+  width: 100%;
+}
+
+/*Gallery section --------------------------------------------------------------------------------------------------*/
+.flex-gallery {
+  padding: 40 80;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section img {
+  width: 24%;
+  overflow: hidden;
+}
+
+/*About section --------------------------------------------------------------------------------------------------*/
+.about-text {
+  width: 40%;
+}
+
+.about-image {
+  width: 50%;
+}
+
+/*List section --------------------------------------------------------------------------------------------------*/
+.flex-list {
+  width: 40%;
+}
+
+.works-list {
+  margin-bottom: 40px;
+}
+
+.list-image {
+  width: 50%;
+}
+
+.width-image-list {
+  width: 100%;
+}
+
+/*Reviews section --------------------------------------------------------------------------------------------------*/
+.flex-reviews {
+  padding: 60 80;
+  min-height: 40%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-stars {
+  width: 24%;
+  margin-bottom: 8px;
+}
+
+.reviews {
+  width: 25%;
+  min-height: 100%;
+  border: 1px solid;
+  border-color: #FFFFFF;
+  border-radius: 4px;
+  padding: 40 32;
+}
+
+.flex-gallery1 {
+  padding: 40 80;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-images {
+  width: 48%;
+  height: 50%;
+  overflow: hidden;
+  margin-bottom: 40px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-images:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-image {
+  width: 60%;
+}
+
+.portfolio-text {
+  width: 35%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-image {
+  width: 55%;
+}
+
+.contact-form {
+  width: 40%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-fields {
+  margin-bottom: 24px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid;
+  border-color: #cccccc;
+  border-radius: 2px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: "Montserrat";
+}
+
+.submit-button {
+  padding: 16 64;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.footer-flex {
+  padding: 40 80;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-social {
+  width: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 480px) {
+  /*Font blocks styles MOBILE --------------------------------------------------------------------------------------------------*/
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .p-above {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  /*Buttons MOBILE --------------------------------------------------------------------------------------------------*/
+  .main-button {
+    padding: 16 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-button:hover {
+    padding: 16 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondary-button {
+    padding: 16 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondary-button:hover {
+    padding: 16 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Homepage MOBILE*/
+  /*Nav bar MOBILE --------------------------------------------------------------------------------------------------*/
+  .main-logo {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .flex-nav {
+    position: static;
+  }
+  .links-flex {
+    display: none;
+  }
+  /*Above-the-fold MOBILE --------------------------------------------------------------------------------------------------*/
+  .main-flex {
+    padding: 64 32 100 32;
+  }
+  .flex-above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Section 1 MOBILE --------------------------------------------------------------------------------------------------*/
+  .flex-gallery {
+    padding: 40 24;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /*General aspects of the sections MOBILE --------------------------------------------------------------------------------------------------*/
+  .flex-section {
+    padding: 40 32;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /*About section MOBILE --------------------------------------------------------------------------------------------------*/
+  .about-text {
+    width: 100%;
+  }
+  .about-image {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  /*List section MOBILE --------------------------------------------------------------------------------------------------*/
+  .flex-list {
+    width: 100%;
+  }
+  .works-list {
+    margin-bottom: 40px;
+  }
+  .list-image {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .width-image-list {
+    width: 100%;
+  }
+  /*Reviews section MOBILE --------------------------------------------------------------------------------------------------*/
+  .flex-reviews {
+    padding: 40 32;
+    min-height: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .reviews-boxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .review-stars {
+    width: 40%;
+    margin: 0 auto 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reviews {
+    width: 80%;
+    margin-bottom: 24px;
+  }
+  /*Footer MOBILE --------------------------------------------------------------------------------------------------*/
+  .footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .flex-social {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .social-icons {
+    width: 24px;
+    height: 24px;
+  }
+  /*Portfolio MOBILE --------------------------------------------------------------------------------------------------*/
+  .main-flex-portfolio {
+    padding: 64 32 100 32;
+  }
+  .flex-gallery1 {
+    padding: 40 32;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-images {
+    width: 90%;
+    height: 50%;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .portfolio-image {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .portfolio-text {
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Contact MOBILE --------------------------------------------------------------------------------------------------*/
+  .main-flex-contact {
+    padding: 64 32 100 32;
+  }
+  .contact-image {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .contact-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .submit-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
